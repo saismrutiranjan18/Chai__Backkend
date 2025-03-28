@@ -55,7 +55,7 @@ const userSchema = new Schema(
 userSchema.pre("save", async function (next) {
     if(!this.isModified("password")) return next();
 
-    this.password = await bcrypt.hash(this.password, 10) // 10 means the number of rounds or salts or hash
+    this.password = await bcrypt.hash(this.password, 10) // 10 is the salt or hash rounds
     next()
 })
 
