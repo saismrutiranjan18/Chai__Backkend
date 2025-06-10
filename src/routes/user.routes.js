@@ -1,6 +1,6 @@
 import { Router } from "express";
 import {  
-    registerUser
+    registerUser,
     loginUser, 
     logoutUser, 
     refreshAccessToken, 
@@ -37,3 +37,4 @@ router.route("/register").post(
 
 
 export default router
+
