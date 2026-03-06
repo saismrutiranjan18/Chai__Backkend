@@ -28,6 +28,6 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.12.1",
     "mongoose-aggregate-paginate-v2": "^1.1.4",
-    "multer": "^2.0.2"
+    "multer": "^2.1.1"
   }
 }
